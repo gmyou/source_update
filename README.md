@@ -4,6 +4,6 @@ Update Source
 init.sh
   restore previous source
   
-source_update.hs
+source_update.sh
   backup source like '_old'
   update new source
