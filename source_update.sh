@@ -18,7 +18,7 @@ cp ~/$1.tar.gz .
 tar -xvzf $1.tar.gz
 chown -R root:root ./$1
 cp ./$1_old/src/log4j.xml ./$1/src
-cp ./$1_old/web/WEB-INF/web.xml ./$1/web/WEB-INF/web.xml
-cp ./$1_old/web/WEB-INF/conf/applicationContext.xml ./$1/web/WEB-INF/conf/applicationContext
+cp ./$1_old/web/WEB-INF/web.xml ./$1/web/WEB-INF
+cp ./$1_old/web/WEB-INF/conf/applicationContext.xml ./$1/web/WEB-INF/conf
 mkdir ./$1/web/WEB-INF/classes
 rm -f $1.tar.gz
